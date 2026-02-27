@@ -5,23 +5,26 @@
                 border-t border-white/10 
                 py-3">
 
-            <NuxtLink v-for="item in BOTTOM_NAV" :key="item.label" :to="item.href" :download="item.download" :class="[
-                'flex flex-col items-center text-xs transition',
-                route.path === item.href
-                    ? 'text-white'
-                    : item.class
-            ]">
+            <component v-for="item in BOTTOM_NAV" :key="item.label" :is="item.download ? 'a' : NuxtLink"
+                :href="item.download ? item.href : undefined" :to="!item.download ? item.href : undefined"
+                :download="item.download ? item.href : undefined" class="flex flex-col items-center text-xs transition"
+                :class="[
+                    !item.download && route.path === item.href
+                        ? 'text-white'
+                        : item.class
+                ]">
                 <component :is="item.icon" />
                 {{ item.label }}
-            </NuxtLink>
+            </component>
 
         </div>
     </nav>
 </template>
 
-
 <script setup>
 import { useRoute } from 'vue-router'
+import { NuxtLink } from '#components'
 import { BOTTOM_NAV } from '~/constants/bottom-nav'
+
 const route = useRoute()
 </script>

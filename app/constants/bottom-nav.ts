@@ -17,7 +17,7 @@ export const BOTTOM_NAV = [
     },
     {
         label: 'CV',
-        href: '/assets/files/cv-hien-le__frontend.pdf',
+        href: 'cv__hien-le__frontend.pdf',
         icon: IconDownload,
         download: true,
         class: 'text-purple-400 hover:text-white'
