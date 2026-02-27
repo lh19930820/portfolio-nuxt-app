@@ -32,6 +32,7 @@
                 </div>
 
             </div>
+            <!-- TODO: get value from .env -->
             <div class="flex gap-4 text-sm text-gray-500">
                 <a href="https://github.com/lh19930820" target="_blank" class="hover:text-white transition">GitHub</a>
                 <a href="https://www.linkedin.com/in/hien-le-6a90aa217/" class="hover:text-white transition">LinkedIn</a>
