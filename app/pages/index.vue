@@ -1,5 +1,8 @@
 <template>
-    <div class="text-xs text-primaryText">
-        helloaaa
-    </div>
+  <SectionsHero />
+  <SectionsTechnicalHighlights />
+  <SectionsSkills />
+  <SectionsProjects />
+  <SectionsExperience />
+  <LazySectionsContact />
 </template>

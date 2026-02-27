@@ -1,3 +1,9 @@
 body {
-    background: red;
+    font-family: 'Inter', sans-serif;
+    background: #0f1117;
+}
+@media (max-width: 430px) {
+    html {
+        font-size: 3.721vw;
+    }
 }
