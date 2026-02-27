@@ -1,8 +1,8 @@
 <template>
-  <SectionsHero />
-  <SectionsTechnicalHighlights />
-  <SectionsSkills />
-  <SectionsProjects />
-  <SectionsExperience />
-  <LazySectionsContact />
+    <SectionsHero />
+    <SectionsTechnicalHighlights />
+    <SectionsSkills />
+    <SectionsProjects />
+    <SectionsExperience />
+    <LazySectionsContact />
 </template>
