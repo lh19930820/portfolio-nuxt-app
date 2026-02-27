@@ -5,7 +5,7 @@
             <div class="hidden lg:block">
                 <LayoutAppAside></LayoutAppAside>
             </div>
-            <main class="flex-1 space-y-20">
+            <main class="flex-1 space-y-20 pb-7 lg:pb-0">
                 <slot />
             </main>
             <LayoutAppBottomNav></LayoutAppBottomNav>

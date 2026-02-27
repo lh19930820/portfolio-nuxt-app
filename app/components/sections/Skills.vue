@@ -16,7 +16,7 @@
                     {{ section.title }}
                 </h3>
 
-                <p class="text-gray-400 text-sm leading-relaxed whitespace-pre-line">
+                <p class="text-gray-400 text-sm leading-relaxed">
                     {{ section.content }}
                 </p>
             </div>

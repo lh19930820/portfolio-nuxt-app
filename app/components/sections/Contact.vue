@@ -11,7 +11,7 @@
                 I’m currently open to senior frontend roles and high-impact projects worldwide.
             </p>
 
-            <div class="mt-10 flex gap-4">
+            <div class="mt-5 lg:mt-10 flex gap-4">
                 <a href="mailto:lehien0893@gmail.com"
                     class="px-8 py-4 rounded-xl bg-gradient-to-r from-purple-500 to-blue-500 font-medium hover:opacity-90 transition">
                     Email Me
