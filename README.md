@@ -1,75 +1,44 @@
-# Nuxt Minimal Starter
+# Hien Le — Portfolio (Nuxt 4)
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Personal portfolio website built with **Nuxt 4 (SSR)** to showcase professional experience, skills, and selected frontend projects.
 
-## Setup
+Built with modern architecture using Vue 3, Vite, TailwindCSS and Nitro server engine.
 
-Make sure to install dependencies:
+---
 
-```bash
-# npm
-npm install
+## 🚀 Tech Stack
 
-# pnpm
-pnpm install
+- Nuxt 4
+- Vue 3
+- Vite
+- TailwindCSS
+- TypeScript
+- Nitro (Server-Side Rendering)
+- SCSS
 
-# yarn
-yarn install
+---
 
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+## 📁 Project Structure
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+portfolio-nuxt-app/
+├── app/
+│   ├── assets/        # SCSS, images
+│   ├── components/    # Reusable UI components
+│   ├── layouts/       # Application layouts
+│   ├── middleware/    # Route middleware
+│   └── pages/         # File-based routing
+│
+├── public/            # Static assets (CV, favicon, etc.)
+├── constants/         # Static configuration data
+├── nuxt.config.ts     # Nuxt configuration
+└── package.json
 ```
 
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+✨ Features
+- Fully responsive design
+- Server-Side Rendering (SSR)
+- SEO-friendly structure
+- Clean UI with TailwindCSS
+- Downloadable CV
+- Optimized static assets
