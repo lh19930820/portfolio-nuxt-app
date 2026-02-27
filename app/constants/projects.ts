@@ -61,7 +61,7 @@ export const PROJECTS = [
             'Optimized asset loading and improved Core Web Vitals.',
         tech: 'Nuxt 3 • Vue 3 • TypeScript • Tailwind',
         links: [
-            { label: 'GitHub →', url: 'http://lehiendev.com/', type: 'secondary' }
+            { label: 'GitHub →', url: 'https://github.com/lh19930820/portfolio-nuxt-app', type: 'secondary' }
         ]
     }
 ]
