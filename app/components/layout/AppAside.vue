@@ -16,7 +16,7 @@
                 
                 <div>
                     <p class="text-gray-400">Location</p>
-                    <p class="text-white">Da Nang, Việt Nam</p>
+                    <p class="text-white">Da Nang, Vietnam</p>
                 </div>
                 <div>
                     <p class="text-gray-400">Phone</p>
