@@ -12,9 +12,9 @@ export default defineNuxtConfig({
     app: {
         head: {
             htmlAttrs: { lang: 'en' },
-            title: 'Hien Le — Senior Frontend Engineer',
+            title: 'Hien Le — Senior Frontend Engineer | Fullstack',
             meta: [
-                { name: 'description', content: 'Portfolio of Hien Le - Frontend Engineer' }
+                { name: 'description', content: 'Portfolio of Hien Le - Frontend Engineer | Fullstack' }
             ]
         }
     }

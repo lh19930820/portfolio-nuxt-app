@@ -5,11 +5,11 @@
             <div>
                 <h2 class="text-xl font-semibold">Hien Le</h2>
                 <p class="text-purple-400 text-sm mt-1">
-                    Frontend Engineer
+                    Frontend Engineer • Fullstack
                 </p>
             </div>
             <div class="text-sm text-gray-400 space-y-1 leading-relaxed">
-                <p>Vue • React • TypeScript</p>
+                <p>Vue • React • TypeScript • Node • Laravel </p>
                 <p>8+ years building production web applications.</p>
             </div>
             <div class="space-y-4 text-sm">
