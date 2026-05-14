@@ -1,31 +1,5 @@
 export const PROJECTS = [
     {
-        title: 'Lode88 Platform',
-        year: '2024',
-        subtitle: 'Production Betting Platform',
-        description:
-            'Implemented responsive landing pages and core UI components for a production betting platform. Integrated real-time APIs, maintained ongoing feature updates, and optimized frontend performance with a scalable component structure.',
-        impact:
-            'Improved rendering performance and optimized frontend asset delivery.',
-        tech: 'Vue • Nuxt • TypeScript • REST API • SSR',
-        links: [
-            { label: 'Live →', url: 'https://lode88.com', type: 'primary' }
-        ]
-    },
-    {
-        title: 'Vivu88 Platform',
-        year: '2025',
-        subtitle: 'Production Betting Platform',
-        description:
-            'Developed and maintained server-rendered frontend interfaces using Laravel Blade. Integrated third-party APIs through backend proxy services to ensure secure data handling and controlled client exposure. Optimized responsive layouts and improved overall UI performance in a live production environment.',
-        impact:
-            'Improved UI consistency across devices and reduced direct client-side API exposure through backend proxy integration while maintaining stable production deployment.',
-        tech: 'Laravel • PHP • REST APIs • Backend Proxy • HTML5 • SCSS • jQuery',
-        links: [
-            { label: 'Live →', url: 'https://vivu88.ch/', type: 'primary' }
-        ]
-    },
-    {
         title: 'WritersPerHour',
         year: '2022',
         subtitle: 'Service Marketplace Website',

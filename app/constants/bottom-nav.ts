@@ -17,7 +17,7 @@ export const BOTTOM_NAV = [
     },
     {
         label: 'CV',
-        href: 'cv__hien-le__frontend.pdf',
+        href: 'cv-hien-le__fullstack.pdf',
         icon: IconDownload,
         download: true,
         class: 'text-purple-400 hover:text-white'
